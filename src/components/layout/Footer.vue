@@ -5,6 +5,6 @@ defineProps<{ name: string }>()
 
 <template>
   <footer className="footer">
-    <p>&#169; {{footerDate}} {{name}} - source code on <a href="https://github.com/xiaoxunyao/react-sudoku">Github</a></p>
+    <p>&#169; {{footerDate}} {{name}} - source code on <a href="https://github.com/xiaoxunyao/vue-sudoku">Github</a></p>
   </footer>
 </template>
