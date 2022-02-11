@@ -1,6 +1,6 @@
-# React Sudoku
+# Vue Sudoku
 
-> A Sudoku game in React!
+> A Sudoku game in Vue.js!
 
 [live demo](https://vue-sudoku.elonehoo.xyz)
 
