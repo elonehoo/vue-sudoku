@@ -1,11 +1,7 @@
-# Vue 3 + Typescript + Vite
+# React Sudoku
 
-This template should help get you started developing with Vue 3 and Typescript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+> A Sudoku game in React!
 
-## Recommended IDE Setup
+[live demo](https://vue-sudoku.elonehoo.xyz)
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
-
-## Type Support For `.vue` Imports in TS
-
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's `.vue` type support plugin by running `Volar: Switch TS Plugin on/off` from VSCode command palette.
+The puzzle is a square shape of nine squares (that is, 3 × 3 squares high), and each square is subdivided into a nine-square grid. In each small nine-square grid, fill in the numbers from 1 to 9, so that the numbers in each column and each row of the entire large nine-square grid are not repeated. The gameplay logic of Sudoku is simple, and the arrangement of numbers is ever-changing.
